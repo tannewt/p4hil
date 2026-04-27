@@ -3554,6 +3554,136 @@
 		)
 		(uuid "fedb8664-92e3-4800-891b-d47aab7c7bcf")
 	)
+	(label "RMII_CLK"
+		(at 127 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0314925d-e11a-4aaf-b421-25bba98e391a")
+	)
+	(label "RMII_CRSDV"
+		(at 127 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "288cc4cc-47b0-4dbd-be53-3e37cd120ee5")
+	)
+	(label "RMII_TXD1"
+		(at 127 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c5c49f4-65cf-41ea-a11c-cdad777f292b")
+	)
+	(label "RMII_TXER"
+		(at 127 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d92ed5d-1eee-49b3-b33c-8ed642314951")
+	)
+	(label "RMII_TXEN"
+		(at 127 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fe673a5-4c34-4d97-8c12-2d03f9b17b23")
+	)
+	(label "USB_HOST+"
+		(at 127 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6db85f19-5254-4469-ba3d-2710a25ca2ed")
+	)
+	(label "RMII_RXD1"
+		(at 127 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76fd2c81-1e3b-4d7b-9fca-69dc50f23902")
+	)
+	(label "USB_SERIAL+"
+		(at 127 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83c231d9-d898-4fc4-b8d1-4075683b5c1d")
+	)
+	(label "RMII_RXD0"
+		(at 127 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c14a2ab6-7637-45d4-8f6a-5a79c2ad7dbb")
+	)
+	(label "RMII_TXD0"
+		(at 127 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d733bfe4-b0d0-455f-9c64-64257404aa73")
+	)
+	(label "USB_HOST-"
+		(at 127 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7978701-f821-4700-b064-5983d2e5aef2")
+	)
+	(label "RMII_RXER"
+		(at 127 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff4a7543-8fd4-497a-a9fc-6ee91dba7c5c")
+	)
+	(label "USB_SERIAL-"
+		(at 127 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffd425a0-9cd7-41cd-85f9-75b209acd7d5")
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 267.97 124.46 90)
@@ -4723,6 +4853,586 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CHIP_PU" input
+			(at 127 54.61 0)
+			(uuid "13cd66cf-9841-41ee-b6eb-156afcc00564")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO0{slash}ADC" input
+			(at 53.34 55.88 180)
+			(uuid "ab31676c-eb27-40c9-b7a1-2ffeaca048ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO1{slash}ADC" input
+			(at 53.34 58.42 180)
+			(uuid "8063daf4-acb9-4320-b1af-6365516a33e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO2{slash}ADC" input
+			(at 53.34 60.96 180)
+			(uuid "8c211868-510e-4ec7-8e3f-d7626990dbf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO3{slash}ADC" input
+			(at 53.34 63.5 180)
+			(uuid "6fdfec39-a068-4d5c-83eb-4773b344b025")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO4{slash}ADC" input
+			(at 53.34 66.04 180)
+			(uuid "2b63e2bc-c3b3-4134-a31c-5dcf48d0d30f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO5{slash}ADC" input
+			(at 53.34 68.58 180)
+			(uuid "f2f3b7ae-4b9c-4aa7-a6a6-690ab5bfc558")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO6{slash}ADC" input
+			(at 53.34 71.12 180)
+			(uuid "2a25652a-61cc-4637-9e74-71649068b283")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO7{slash}ADC" input
+			(at 53.34 73.66 180)
+			(uuid "e26034cf-f832-4337-9213-bad335fb009d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO8{slash}ADC" input
+			(at 53.34 78.74 180)
+			(uuid "d08cd713-8cc5-4459-bbf1-8ae4363601b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO9{slash}ADC" input
+			(at 53.34 81.28 180)
+			(uuid "ec7094f3-4013-4143-a0d9-9e0425083d3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO10{slash}ADC" input
+			(at 53.34 83.82 180)
+			(uuid "2def48b9-7698-41af-b20a-649f1b66cfba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO11{slash}ADC" input
+			(at 53.34 86.36 180)
+			(uuid "7efd3fc0-fa31-4e88-9dfc-5736bad033bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO12{slash}ADC" input
+			(at 53.34 88.9 180)
+			(uuid "aa3c682a-ab0c-4251-ba63-2266aeff13b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO13{slash}ADC" input
+			(at 53.34 91.44 180)
+			(uuid "218b0f6c-9dcd-40ef-a115-c1560f62b238")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO14{slash}ADC" input
+			(at 53.34 93.98 180)
+			(uuid "e111675b-1181-4321-bcbf-4bf38a2cfcf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO15{slash}ADC" input
+			(at 53.34 96.52 180)
+			(uuid "7207243d-fb01-4811-ac18-c2a636018e7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO16{slash}ADC" input
+			(at 53.34 101.6 180)
+			(uuid "6dffdc59-66bc-4e5e-98da-2926d7db8b83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO17{slash}ADC" input
+			(at 53.34 104.14 180)
+			(uuid "e730bbe5-c33f-4632-9b9f-d67b57fc3bdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO18{slash}ADC" input
+			(at 53.34 106.68 180)
+			(uuid "1f4cd003-aaa9-4538-91eb-bc1fa85214d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO19{slash}ADC" input
+			(at 53.34 109.22 180)
+			(uuid "ac9851de-c622-4e42-ade4-45fba5fa1216")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO20{slash}ADC" input
+			(at 53.34 111.76 180)
+			(uuid "371afea1-7abf-4ea1-8881-ed6a49cdeca5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO21{slash}ADC" input
+			(at 53.34 114.3 180)
+			(uuid "6fbd3325-2f48-4fb2-ae01-ef4fa80f03ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO22{slash}ADC" input
+			(at 53.34 116.84 180)
+			(uuid "d389d3d1-c651-42a7-b7ed-13ee90af7c7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO23{slash}ADC" input
+			(at 53.34 119.38 180)
+			(uuid "0f176e8b-8fa3-4ad0-85b5-9ce057ad9896")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO24{slash}ADC{slash}USB_JTAG_DM" input
+			(at 127 149.86 0)
+			(uuid "f460b133-be8f-42f6-8e9b-54040ec70bae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO25{slash}ADC{slash}USB_JTAG_DP" input
+			(at 127 147.32 0)
+			(uuid "723158c6-84b0-46ba-acaa-de4016d25491")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO26{slash}ADC{slash}USB" input
+			(at 53.34 124.46 180)
+			(uuid "38cd5511-564b-4b1d-93d4-9ede28386818")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO27{slash}ADC{slash}USB" input
+			(at 53.34 127 180)
+			(uuid "170d4339-ff1c-4dc7-9403-6afb056919bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO28" input
+			(at 127 121.92 0)
+			(uuid "78d9976a-eb25-4cc3-8926-fa835baf1824")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO29" input
+			(at 127 119.38 0)
+			(uuid "b00e9dc8-64ec-44f2-a076-3db8a0a6b5f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO30" input
+			(at 127 116.84 0)
+			(uuid "8acb195a-1d3d-4681-908e-c8644fc146fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO31" input
+			(at 127 114.3 0)
+			(uuid "e63f8603-fb1e-4303-bcdf-69b91c8b6361")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO32" input
+			(at 127 111.76 0)
+			(uuid "4d29066a-2881-43b3-9493-9f6534b8fe0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO33" input
+			(at 127 109.22 0)
+			(uuid "57cb7307-37d7-4403-9dae-73cbdfd8affe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO34" input
+			(at 127 106.68 0)
+			(uuid "1275c233-f196-4095-8d35-6f4da03303af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO35_BOOT_PULLUP" input
+			(at 127 104.14 0)
+			(uuid "36f3dedd-cac9-4f2f-a7b2-11774b4db46b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO36_PULLUP" input
+			(at 127 101.6 0)
+			(uuid "6ce469e1-c1a3-49a3-aff8-6102905722fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO37{slash}UART0_TXD" input
+			(at 53.34 129.54 180)
+			(uuid "111b34c3-0eb3-4148-a40a-ee293a3beb9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO38{slash}UART0_RXD" input
+			(at 53.34 132.08 180)
+			(uuid "17731010-f146-4082-801e-9df1d55dda6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO39" input
+			(at 53.34 134.62 180)
+			(uuid "d3649547-335e-494b-8df3-4817ba87469c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO40" input
+			(at 53.34 137.16 180)
+			(uuid "6d276b12-7a99-4b9d-b02c-27ddeb7d106c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO41" input
+			(at 53.34 139.7 180)
+			(uuid "97554251-8adf-4b0c-97fa-710e463ed693")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO42" input
+			(at 53.34 142.24 180)
+			(uuid "6abfd880-6a52-44ba-9e69-b7d84f2cc425")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO43" input
+			(at 64.77 151.13 270)
+			(uuid "562efb16-71fb-4adb-ade3-458a87cc3cd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO44" input
+			(at 67.31 151.13 270)
+			(uuid "90a1d94f-68cd-46fc-a579-563bf4651d6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO45" input
+			(at 69.85 151.13 270)
+			(uuid "4ce6cdd8-ebcb-42ff-b64b-0f2d5c8fa228")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO46" input
+			(at 72.39 151.13 270)
+			(uuid "1a049d32-69c5-4cd9-825d-ceb6b1d19fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO47" input
+			(at 74.93 151.13 270)
+			(uuid "f5e33ed8-35e7-422d-9930-216f4ffb5415")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO48" input
+			(at 77.47 151.13 270)
+			(uuid "90be729f-2bcd-495f-b799-2e41543bc815")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO49{slash}ADC" input
+			(at 80.01 151.13 270)
+			(uuid "56a9423e-4a37-4123-8b54-bfc36bac323f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO50{slash}ADC" input
+			(at 82.55 151.13 270)
+			(uuid "efc0d3a3-c2ee-4773-9506-cc707dccce78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO51{slash}ADC" input
+			(at 68.58 50.8 90)
+			(uuid "fd48df50-8ae9-498d-a3f2-3ca68a53e2a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO52{slash}ADC" input
+			(at 71.12 50.8 90)
+			(uuid "093da3b3-c974-4f25-b2f7-7514c7e2fa7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO53{slash}ADC" input
+			(at 73.66 50.8 90)
+			(uuid "5ab3adc9-d7d7-49d3-bea5-258691921fe9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO54{slash}ADC" input
+			(at 76.2 50.8 90)
+			(uuid "068106ee-2531-405f-9297-b2f1be47614b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HS_USB_D+" input
+			(at 127 139.7 0)
+			(uuid "21f5f891-3232-4f1d-8cb7-565bdbe5b20b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HS_USB_D-" input
+			(at 127 142.24 0)
+			(uuid "f76288d6-b6b4-4cc9-9274-cb0df4b78a91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
