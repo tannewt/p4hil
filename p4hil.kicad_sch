@@ -2416,6 +2416,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 111.76) (xy 140.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0ce515-71c5-42e7-9a02-9787deca80be")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 140.97 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7d75b8-c075-4836-8b06-bc4d64e6c714")
+	)
+	(wire
+		(pts
 			(xy 257.81 67.31) (xy 257.81 77.47)
 		)
 		(stroke
@@ -2546,6 +2566,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 106.68) (xy 140.97 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2c6832-fc05-43be-8ddc-b7369edea11a")
+	)
+	(wire
+		(pts
 			(xy 270.51 77.47) (xy 270.51 90.17)
 		)
 		(stroke
@@ -2593,6 +2623,16 @@
 			(type default)
 		)
 		(uuid "4636f507-d1ac-4f20-aefb-78da6cf97f23")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 140.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a5ee57-ea1c-41ca-ad3e-5031af057fcc")
 	)
 	(wire
 		(pts
@@ -2693,6 +2733,16 @@
 			(type default)
 		)
 		(uuid "5ce245ad-9687-45de-883c-0702ae8562e9")
+	)
+	(wire
+		(pts
+			(xy 127 121.92) (xy 140.97 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2ad9a2-15c2-49c4-afc5-8ffba32d8374")
 	)
 	(wire
 		(pts
@@ -2833,6 +2883,16 @@
 			(type default)
 		)
 		(uuid "78ab13d1-2f16-4be4-841c-819fc159d71f")
+	)
+	(wire
+		(pts
+			(xy 127 119.38) (xy 140.97 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3062ac-a778-4275-aa8b-9a16eaa06df3")
 	)
 	(wire
 		(pts
@@ -2983,6 +3043,16 @@
 			(type default)
 		)
 		(uuid "972a147f-bd9b-443b-bc23-ccd8d89511e2")
+	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 140.97 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aaefa2f-a6fe-498b-a70d-2d970345f893")
 	)
 	(wire
 		(pts
@@ -3554,55 +3624,25 @@
 		)
 		(uuid "fedb8664-92e3-4800-891b-d47aab7c7bcf")
 	)
-	(label "RMII_CLK"
-		(at 127 111.76 0)
+	(label "SDA"
+		(at 96.52 151.13 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "0314925d-e11a-4aaf-b421-25bba98e391a")
+		(uuid "46a45e21-257f-41b8-ba65-7c7b3227a0e6")
 	)
-	(label "RMII_CRSDV"
-		(at 127 121.92 0)
+	(label "SCL"
+		(at 93.98 151.13 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "288cc4cc-47b0-4dbd-be53-3e37cd120ee5")
-	)
-	(label "RMII_TXD1"
-		(at 127 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c5c49f4-65cf-41ea-a11c-cdad777f292b")
-	)
-	(label "RMII_TXER"
-		(at 127 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d92ed5d-1eee-49b3-b33c-8ed642314951")
-	)
-	(label "RMII_TXEN"
-		(at 127 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5fe673a5-4c34-4d97-8c12-2d03f9b17b23")
+		(uuid "4fbf83a9-82cc-41f0-b823-63ab172cc5ea")
 	)
 	(label "USB_HOST+"
 		(at 127 139.7 0)
@@ -3614,16 +3654,6 @@
 		)
 		(uuid "6db85f19-5254-4469-ba3d-2710a25ca2ed")
 	)
-	(label "RMII_RXD1"
-		(at 127 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76fd2c81-1e3b-4d7b-9fca-69dc50f23902")
-	)
 	(label "USB_SERIAL+"
 		(at 127 147.32 0)
 		(effects
@@ -3633,26 +3663,6 @@
 			(justify left bottom)
 		)
 		(uuid "83c231d9-d898-4fc4-b8d1-4075683b5c1d")
-	)
-	(label "RMII_RXD0"
-		(at 127 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c14a2ab6-7637-45d4-8f6a-5a79c2ad7dbb")
-	)
-	(label "RMII_TXD0"
-		(at 127 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d733bfe4-b0d0-455f-9c64-64257404aa73")
 	)
 	(label "USB_HOST-"
 		(at 127 142.24 0)
@@ -3664,15 +3674,15 @@
 		)
 		(uuid "d7978701-f821-4700-b064-5983d2e5aef2")
 	)
-	(label "RMII_RXER"
-		(at 127 114.3 0)
+	(label "SDA"
+		(at 157.48 134.62 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ff4a7543-8fd4-497a-a9fc-6ee91dba7c5c")
+		(uuid "f996d76c-baa2-4703-b349-b76c19e15dd5")
 	)
 	(label "USB_SERIAL-"
 		(at 127 149.86 0)
@@ -4818,6 +4828,208 @@
 		)
 	)
 	(sheet
+		(at 140.97 95.25)
+		(size 27.94 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "16022e0a-5f3f-4f99-9755-d71b2286f4b7")
+		(property "Sheetname" "Ethernet"
+			(at 140.97 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 140.97 131.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RMII_TXD1" input
+			(at 140.97 104.14 180)
+			(uuid "40b01eb5-8f80-433d-8ca5-70c6974324f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_TXD0" input
+			(at 140.97 106.68 180)
+			(uuid "ce9d0106-382f-4df7-b424-4332b8468ea3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_CLK" input
+			(at 140.97 111.76 180)
+			(uuid "e8c03837-ec1f-4a1e-9407-221cea00b381")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_TXEN" input
+			(at 140.97 109.22 180)
+			(uuid "4b71bb3f-b0ff-41ea-b100-1dd94e444d17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_RXD1" input
+			(at 140.97 116.84 180)
+			(uuid "47bd285c-d499-4e45-a6a6-daeed5222e2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_CRSDV" input
+			(at 140.97 121.92 180)
+			(uuid "7dc69d14-52ff-4ef8-9f55-9fd6dcb32fce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_RXD0" input
+			(at 140.97 119.38 180)
+			(uuid "cc1d13f6-979d-4d1a-af14-6233371aadb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDIO" input
+			(at 153.8184 130.81 270)
+			(uuid "1ccd42c8-214f-4cb4-88c8-3a78aa54f7b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDC" input
+			(at 155.4377 130.81 270)
+			(uuid "0bfe0f79-3c44-494b-a3f2-1d42d3107763")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WAKE" input
+			(at 157.48 130.81 270)
+			(uuid "01e70df8-b3ca-4f72-80ca-b1d2762a588d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHY_RESET" input
+			(at 166.37 130.81 270)
+			(uuid "babb2c22-62cc-46df-b929-a22abc167cac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "p4hil"
+				(path "/b29b188c-1e37-42da-9ef2-78e9f87e21db"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 167.64)
+		(size 26.67 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1db92324-c955-4beb-9ac3-5e1bb96ede4e")
+		(property "Sheetname" "USB Device"
+			(at 140.97 166.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_device.kicad_sch"
+			(at 140.97 186.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "p4hil"
+				(path "/b29b188c-1e37-42da-9ef2-78e9f87e21db"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 53.34 50.8)
 		(size 73.66 100.33)
 		(exclude_from_sim no)
@@ -5146,97 +5358,97 @@
 			)
 		)
 		(pin "GPIO28" input
-			(at 127 121.92 0)
+			(at 53.34 129.54 180)
 			(uuid "78d9976a-eb25-4cc3-8926-fa835baf1824")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GPIO29" input
-			(at 127 119.38 0)
+			(at 53.34 132.08 180)
 			(uuid "b00e9dc8-64ec-44f2-a076-3db8a0a6b5f8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GPIO30" input
-			(at 127 116.84 0)
+			(at 53.34 134.62 180)
 			(uuid "8acb195a-1d3d-4681-908e-c8644fc146fe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GPIO31" input
-			(at 127 114.3 0)
+			(at 53.34 137.16 180)
 			(uuid "e63f8603-fb1e-4303-bcdf-69b91c8b6361")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GPIO32" input
-			(at 127 111.76 0)
+			(at 53.34 139.7 180)
 			(uuid "4d29066a-2881-43b3-9493-9f6534b8fe0e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GPIO33" input
-			(at 127 109.22 0)
+			(at 53.34 142.24 180)
 			(uuid "57cb7307-37d7-4403-9dae-73cbdfd8affe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GPIO34" input
-			(at 127 106.68 0)
+			(at 64.77 151.13 270)
 			(uuid "1275c233-f196-4095-8d35-6f4da03303af")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GPIO35_BOOT_PULLUP" input
-			(at 127 104.14 0)
+			(at 93.98 151.13 270)
 			(uuid "36f3dedd-cac9-4f2f-a7b2-11774b4db46b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GPIO36_PULLUP" input
-			(at 127 101.6 0)
+			(at 96.52 151.13 270)
 			(uuid "6ce469e1-c1a3-49a3-aff8-6102905722fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GPIO37{slash}UART0_TXD" input
-			(at 53.34 129.54 180)
+			(at 72.39 151.13 270)
 			(uuid "111b34c3-0eb3-4148-a40a-ee293a3beb9b")
 			(effects
 				(font
@@ -5246,7 +5458,7 @@
 			)
 		)
 		(pin "GPIO38{slash}UART0_RXD" input
-			(at 53.34 132.08 180)
+			(at 74.93 151.13 270)
 			(uuid "17731010-f146-4082-801e-9df1d55dda6d")
 			(effects
 				(font
@@ -5256,7 +5468,7 @@
 			)
 		)
 		(pin "GPIO39" input
-			(at 53.34 134.62 180)
+			(at 77.47 151.13 270)
 			(uuid "d3649547-335e-494b-8df3-4817ba87469c")
 			(effects
 				(font
@@ -5266,93 +5478,93 @@
 			)
 		)
 		(pin "GPIO40" input
-			(at 53.34 137.16 180)
+			(at 127 109.22 0)
 			(uuid "6d276b12-7a99-4b9d-b02c-27ddeb7d106c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO41" input
-			(at 53.34 139.7 180)
+			(at 127 106.68 0)
 			(uuid "97554251-8adf-4b0c-97fa-710e463ed693")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO42" input
-			(at 53.34 142.24 180)
+			(at 127 104.14 0)
 			(uuid "6abfd880-6a52-44ba-9e69-b7d84f2cc425")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO43" input
-			(at 64.77 151.13 270)
+			(at 127 101.6 0)
 			(uuid "562efb16-71fb-4adb-ade3-458a87cc3cd9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO44" input
-			(at 67.31 151.13 270)
+			(at 127 111.76 0)
 			(uuid "90a1d94f-68cd-46fc-a579-563bf4651d6b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO45" input
-			(at 69.85 151.13 270)
+			(at 127 121.92 0)
 			(uuid "4ce6cdd8-ebcb-42ff-b64b-0f2d5c8fa228")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO46" input
-			(at 72.39 151.13 270)
+			(at 127 119.38 0)
 			(uuid "1a049d32-69c5-4cd9-825d-ceb6b1d19fab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO47" input
-			(at 74.93 151.13 270)
+			(at 127 116.84 0)
 			(uuid "f5e33ed8-35e7-422d-9930-216f4ffb5415")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO48" input
-			(at 77.47 151.13 270)
+			(at 127 114.3 0)
 			(uuid "90be729f-2bcd-495f-b799-2e41543bc815")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO49{slash}ADC" input
@@ -5439,6 +5651,52 @@
 			(project "p4hil"
 				(path "/b29b188c-1e37-42da-9ef2-78e9f87e21db"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 167.64)
+		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d964722f-0742-41bf-972a-222da90a91eb")
+		(property "Sheetname" "USB Host"
+			(at 92.71 166.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_host.kicad_sch"
+			(at 92.71 186.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "p4hil"
+				(path "/b29b188c-1e37-42da-9ef2-78e9f87e21db"
+					(page "6")
 				)
 			)
 		)

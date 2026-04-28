@@ -645,7 +645,7 @@
         "uuid": "b29b188c-1e37-42da-9ef2-78e9f87e21db"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U6,J8,#PWR65-66",
     "variants": []
   },
   "sheets": [
@@ -656,6 +656,26 @@
     [
       "34f4cdd2-f250-40f0-936f-238a62b1da9f",
       "P4"
+    ],
+    [
+      "16022e0a-5f3f-4f99-9755-d71b2286f4b7",
+      "Ethernet"
+    ],
+    [
+      "a6365362-f159-4802-a4ca-d659ef2a6f70",
+      "EthernetPoEDiode"
+    ],
+    [
+      "1db92324-c955-4beb-9ac3-5e1bb96ede4e",
+      "USB Device"
+    ],
+    [
+      "d964722f-0742-41bf-972a-222da90a91eb",
+      "USB Host"
+    ],
+    [
+      "7778d4bd-72b4-4306-b68e-de877894ede2",
+      "USBDiode"
     ]
   ],
   "text_variables": {},
