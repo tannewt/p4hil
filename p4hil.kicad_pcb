@@ -9,8 +9,8 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
-		(4 "In1.Cu" signal)
-		(6 "In2.Cu" signal)
+		(4 "In1.Cu" power "In1.Cu GND")
+		(6 "In2.Cu" power "In2.Cu Power")
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -108,270 +108,6 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(thickness 0.01524)
-				(material "JLCPCB Soldermask")
-				(epsilon_r 3.8)
-				(loss_tangent 0)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 4"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.2104)
-				(material "Nan Ya Plastics NP-155F 7628")
-				(epsilon_r 4.4)
-				(loss_tangent 0.02)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.0152)
-			)
-			(layer "dielectric 5"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.065)
-				(material "Nan Ya Plastics NP-155F Core")
-				(epsilon_r 4.43)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.0152)
-			)
-			(layer "dielectric 6"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.2104)
-				(material "Nan Ya Plastics NP-155F 7628")
-				(epsilon_r 4.4)
-				(loss_tangent 0.02)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(thickness 0.01524)
-				(material "JLCPCB Soldermask")
-				(epsilon_r 3.8)
-				(loss_tangent 0)
-			)
-			(layer "B.Paste"
-				(type "Bottom Solder Paste")
-			)
-			(layer "B.SilkS"
-				(type "Bottom Silk Screen")
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(thickness 0.01524)
-				(material "JLCPCB Soldermask")
-				(epsilon_r 3.8)
-				(loss_tangent 0)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 7"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.2104)
-				(material "Nan Ya Plastics NP-155F 7628")
-				(epsilon_r 4.4)
-				(loss_tangent 0.02)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.0152)
-			)
-			(layer "dielectric 8"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.065)
-				(material "Nan Ya Plastics NP-155F Core")
-				(epsilon_r 4.43)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.0152)
-			)
-			(layer "dielectric 9"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.2104)
-				(material "Nan Ya Plastics NP-155F 7628")
-				(epsilon_r 4.4)
-				(loss_tangent 0.02)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(thickness 0.01524)
-				(material "JLCPCB Soldermask")
-				(epsilon_r 3.8)
-				(loss_tangent 0)
-			)
-			(layer "B.Paste"
-				(type "Bottom Solder Paste")
-			)
-			(layer "B.SilkS"
-				(type "Bottom Silk Screen")
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(thickness 0.01524)
-				(material "JLCPCB Soldermask")
-				(epsilon_r 3.8)
-				(loss_tangent 0)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 10"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.2104)
-				(material "Nan Ya Plastics NP-155F 7628")
-				(epsilon_r 4.4)
-				(loss_tangent 0.02)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.0152)
-			)
-			(layer "dielectric 11"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.065)
-				(material "Nan Ya Plastics NP-155F Core")
-				(epsilon_r 4.43)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.0152)
-			)
-			(layer "dielectric 12"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.2104)
-				(material "Nan Ya Plastics NP-155F 7628")
-				(epsilon_r 4.4)
-				(loss_tangent 0.02)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(thickness 0.01524)
-				(material "JLCPCB Soldermask")
-				(epsilon_r 3.8)
-				(loss_tangent 0)
-			)
-			(layer "B.Paste"
-				(type "Bottom Solder Paste")
-			)
-			(layer "B.SilkS"
-				(type "Bottom Silk Screen")
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(thickness 0.01524)
-				(material "JLCPCB Soldermask")
-				(epsilon_r 3.8)
-				(loss_tangent 0)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 1"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.2104)
-				(material "Nan Ya Plastics NP-155F 7628")
-				(epsilon_r 4.4)
-				(loss_tangent 0.02)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.0152)
-			)
-			(layer "dielectric 2"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.065)
-				(material "Nan Ya Plastics NP-155F Core")
-				(epsilon_r 4.43)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.0152)
-			)
-			(layer "dielectric 3"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.2104)
-				(material "Nan Ya Plastics NP-155F 7628")
-				(epsilon_r 4.4)
-				(loss_tangent 0.02)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(thickness 0.01524)
-				(material "JLCPCB Soldermask")
-				(epsilon_r 3.8)
-				(loss_tangent 0)
-			)
-			(layer "B.Paste"
-				(type "Bottom Solder Paste")
-			)
-			(layer "B.SilkS"
-				(type "Bottom Silk Screen")
-			)
 			(copper_finish "None")
 			(dielectric_constraints yes)
 		)
@@ -391,6 +127,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(grid_origin 123.952 74.168)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -2301,7 +2038,7 @@
 	(footprint "Connector_RJ:RJ45_Hanrun_HR911105A_Horizontal"
 		(layer "F.Cu")
 		(uuid "6cc79389-eff1-4b0c-a765-e873c80fe608")
-		(at 171.62 88.235 90)
+		(at 173.017 87.223 90)
 		(descr "1 Port RJ45 8P8C receptacle, shielded, with magnetics, through hole, 2 LEDs, tab down, http://www.hanrun.com/public/upload/down/2020/09-11/cc11be56d66bb63d5f1eeb85492439c0.pdf")
 		(tags "RJ45 Magjack ethernet")
 		(property "Reference" "REF**"
@@ -3723,13 +3460,13 @@
 	(footprint "Connector_USB:USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked"
 		(layer "F.Cu")
 		(uuid "a151fe92-5a28-426a-a107-c5a7998c5dc2")
-		(at 111.76 79.71)
+		(at 109.044316 79.71)
 		(descr "USB-A two stacked horizontal receptacle, through-hole (https://www.cuidevices.com/product/resource/uj2-adh-th.pdf)")
 		(tags "USB-A CUI stacked horizontal through-hole")
 		(property "Reference" "REF**"
 			(at -8.92 -3.99 0)
 			(layer "F.SilkS")
-			(uuid "4b869a58-ab2b-44c1-bc45-78a763b5f150")
+			(uuid "27a87ccd-0f2b-4383-8428-7a0056c4e0c2")
 			(effects
 				(font
 					(size 1 1)
@@ -3740,7 +3477,7 @@
 		(property "Value" "USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked"
 			(at -2.2 14.18 0)
 			(layer "F.Fab")
-			(uuid "c633ed8c-25bc-428e-82cf-648b10614dd5")
+			(uuid "fac71a5e-5603-490a-9304-31355669ac9b")
 			(effects
 				(font
 					(size 1 1)
@@ -3753,7 +3490,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e575838f-9d19-4602-bcd4-ec0774f9ab05")
+			(uuid "be162d7e-e946-4b78-a498-fbf1e2dba376")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3503,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "344086af-d7fa-47cd-80a1-1b629a5ab1d1")
+			(uuid "6e1d0869-c7c3-40e6-8ad1-27fdbb742d00")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,6 +4463,354 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x22_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Converter_DCDC:Converter_DCDC_Silvertel_Ag99xxLP_THT"
+		(layer "F.Cu")
+		(uuid "ae55d74b-424d-4ffe-b0e7-864004b8cbc2")
+		(at 171.577 96.393)
+		(descr "Converter, DCDC, Silvertel Ag9900 PoE, 1500VDC isolation, Vin 36V - 75V, 4.9W - 10W output, https://silvertel.com/images/datasheets/Ag9900M-datasheet-ultra-miniature-isolated-Power-over-Ethernet-POE-module.pdf")
+		(tags "DCDC converter IEEE 802.3af")
+		(property "Reference" "REF**"
+			(at 5.69 -2.51 0)
+			(layer "F.SilkS")
+			(uuid "98e11e1b-271f-4675-aef7-e103ff5634c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Converter_DCDC_Silvertel_Ag99xxLP_THT"
+			(at 5.69 21.99 0)
+			(layer "F.Fab")
+			(uuid "fd990f86-768c-40e5-b438-85ab59b4a279")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49c3f630-920b-4c1f-987f-9e40139add9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f86b0f0f-92e4-473b-94d4-ca23d3413b16")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.68 -1.67)
+			(end -1.68 0.78)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "389f75fb-4914-4d6c-b67f-f55fd126cea8")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end -1.38 20.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "95a65e6f-391e-478e-bace-958d605c8921")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 12.76 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d89aabb8-869b-4aa9-bcc7-c1466715d9ce")
+		)
+		(fp_line
+			(start -1.38 20.05)
+			(end 12.76 20.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "090fc2a5-fed9-4db3-8dd8-5fc7e03abe24")
+		)
+		(fp_line
+			(start 0.77 -1.67)
+			(end -1.68 -1.67)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d6790381-8352-4612-8069-cb996235dd68")
+		)
+		(fp_line
+			(start 12.76 -1.38)
+			(end 12.76 20.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "80d71f7b-ed44-4c3d-b26f-d8eeafcc45b0")
+		)
+		(fp_line
+			(start -1.97 -1.97)
+			(end -1.97 20.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "14ce58bc-44b5-40f9-9131-6ff5acd8cd77")
+		)
+		(fp_line
+			(start -1.97 -1.97)
+			(end 13.35 -1.97)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "06ceea76-63b7-4e92-acb2-02cc9d986b9e")
+		)
+		(fp_line
+			(start -1.97 20.64)
+			(end 13.35 20.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "62ac4673-83f0-47fe-99e4-f735cb019583")
+		)
+		(fp_line
+			(start 13.35 -1.97)
+			(end 13.35 20.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e2882bfc-fda3-49a4-ae0e-8535e2bc0785")
+		)
+		(fp_line
+			(start -1.31 -1.27)
+			(end 12.65 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "546e60f5-1834-4732-adee-f9824c2895fe")
+		)
+		(fp_line
+			(start -1.27 -1.27)
+			(end -1.27 -0.99)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "df05916e-3328-473b-8d1b-4b2fb1dd7010")
+		)
+		(fp_line
+			(start -1.27 -0.99)
+			(end -0.27 0.01)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3fe8fe3d-ac3b-4551-9a19-44a1bef7f868")
+		)
+		(fp_line
+			(start -1.27 1.01)
+			(end -1.27 19.94)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ffb79b45-350b-4af7-9003-33f6fe2a365a")
+		)
+		(fp_line
+			(start -1.27 19.94)
+			(end 12.65 19.94)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "83492452-76a2-4d74-9d2e-9d57dc179db4")
+		)
+		(fp_line
+			(start -0.27 0.01)
+			(end -1.27 1.01)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "011647d7-d64e-4e44-89a5-9ef64c8c4d31")
+		)
+		(fp_line
+			(start 12.65 -1.27)
+			(end 12.65 19.94)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3e757800-2a65-4ee6-a09a-ffd7ef7b0d3d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 5.69 9.32 270)
+			(layer "F.Fab")
+			(uuid "be2cab1a-b1d0-4871-a865-22881d903807")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 270)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(uuid "fe2803ec-4efd-4d37-aaee-78816f2dc2b8")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54 270)
+			(size 2 2)
+			(drill 1.12)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "cfcd3192-4a41-42b2-b7d0-3e4177ac52c3")
+		)
+		(pad "3" thru_hole circle
+			(at 0 16.13 270)
+			(size 2 2)
+			(drill 1.12)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ae0cd2fe-bd0d-4900-ae6f-18d409a8f00f")
+		)
+		(pad "4" thru_hole circle
+			(at 0 18.67 270)
+			(size 2 2)
+			(drill 1.12)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "b4058e0d-b385-459c-b311-1b1a3cc57c32")
+		)
+		(pad "5" thru_hole circle
+			(at 11.38 18.67 270)
+			(size 2 2)
+			(drill 1.12)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "c7c92a28-ddbe-45eb-b157-da92fe46f30f")
+		)
+		(pad "6" thru_hole circle
+			(at 11.38 16.13 270)
+			(size 2 2)
+			(drill 1.12)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "b5e9461c-aad7-45f1-8773-a2e5a8295c24")
+		)
+		(pad "7" thru_hole circle
+			(at 11.38 2.54 270)
+			(size 2 2)
+			(drill 1.12)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "abaa0e5a-eb0e-4c16-ba10-401840b6572e")
+		)
+		(pad "8" thru_hole circle
+			(at 11.38 0 270)
+			(size 2 2)
+			(drill 1.12)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "b3a04038-3032-4e2b-a77b-0d0b1859cc5c")
+		)
+		(zone
+			(layers "F.Cu" "Dwgs.User")
+			(uuid "4110938a-4853-41df-8a3e-69d6b8791999")
+			(name "Underside")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 175.597 94.413) (xy 175.597 102.943) (xy 172.287 102.943) (xy 172.287 108.323) (xy 179.397 108.323)
+					(xy 179.397 117.023) (xy 176.397 117.023) (xy 176.397 111.323) (xy 169.287 111.323) (xy 169.287 99.953)
+					(xy 172.597 99.953) (xy 172.597 94.413)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Silvertel_Ag99xxLP_THT.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6102,7 +6187,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 		(layer "F.Cu")
 		(uuid "d7eb7c1e-dfa2-43f0-aecb-7441ab44d22c")
-		(at 175.26 100.03 90)
+		(at 186.182 66.548 90)
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "REF**"
@@ -7868,11 +7953,11 @@
 	(footprint "Converter_DCDC:Converter_DCDC_Silvertel_Ag54xx"
 		(layer "F.Cu")
 		(uuid "e640cd13-5615-4984-a436-81def2718af2")
-		(at 116.967 69.088)
+		(at 167.767 18.923 -90)
 		(descr "DCDC-Converter, 30W POE, Silvertel, pitch 2.54mm, package size 62x19.5x14mm, https://silvertel.com/images/datasheets/Ag5400-datasheet-high%20Efficiency-30W-Power-Over-Ethernet-Plus-Module-PoE+PD.pdf")
 		(tags "DCDC-Converter Silvertel Ag5405 Ag5412 Ag5424 single output POE")
 		(property "Reference" "REF**"
-			(at -3 -10.5 0)
+			(at -3 -10.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1ae3cd2d-bad6-400c-aaa3-315905143b71")
@@ -7884,7 +7969,7 @@
 			)
 		)
 		(property "Value" "Converter_DCDC_Silvertel_Ag54xx"
-			(at 27.9 0 0)
+			(at 27.9 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "9edaa7a7-1110-4843-804e-c5932e63c7b8")
@@ -7896,7 +7981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7909,7 +7994,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7924,14 +8009,44 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -5.23 -9.44)
-			(end -5.23 1.8)
+			(start 18.67 10.3)
+			(end 36.91 10.3)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "db790fd6-b585-4733-ab1b-898713f4096e")
+			(uuid "b22b2669-09e9-4baa-8b02-b5838b3bfbc9")
+		)
+		(fp_line
+			(start 36.91 10.3)
+			(end 36.91 3.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1cecac2f-8e69-45e1-99d4-38c7b85c9a1f")
+		)
+		(fp_line
+			(start 36.91 3.8)
+			(end 52.31 3.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1f7367d3-f6b6-4bd4-95fc-ba1c8dcae025")
+		)
+		(fp_line
+			(start 52.31 3.8)
+			(end 52.31 -9.44)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4ae4e274-b6a9-4338-8c30-c25c99c895cb")
 		)
 		(fp_line
 			(start -5.23 1.8)
@@ -7954,34 +8069,14 @@
 			(uuid "2d2a0a70-da1f-4975-b723-db363b2857a8")
 		)
 		(fp_line
-			(start 18.67 10.3)
-			(end 36.91 10.3)
+			(start -5.23 -9.44)
+			(end -5.23 1.8)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b22b2669-09e9-4baa-8b02-b5838b3bfbc9")
-		)
-		(fp_line
-			(start 36.91 3.8)
-			(end 52.31 3.8)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1f7367d3-f6b6-4bd4-95fc-ba1c8dcae025")
-		)
-		(fp_line
-			(start 36.91 10.3)
-			(end 36.91 3.8)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1cecac2f-8e69-45e1-99d4-38c7b85c9a1f")
+			(uuid "db790fd6-b585-4733-ab1b-898713f4096e")
 		)
 		(fp_line
 			(start 52.31 -9.44)
@@ -7994,24 +8089,44 @@
 			(uuid "4e4493b5-0b99-424b-b05e-0c77507b0f0e")
 		)
 		(fp_line
-			(start 52.31 3.8)
-			(end 52.31 -9.44)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4ae4e274-b6a9-4338-8c30-c25c99c895cb")
-		)
-		(fp_line
-			(start -5.36 -9.57)
-			(end -5.36 1.93)
+			(start 18.54 10.43)
+			(end 37.04 10.43)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "31d91e42-ac2b-46c9-a776-6ab55c790d8b")
+			(uuid "fe683e92-278e-4824-aaad-02b6b66cb3ed")
+		)
+		(fp_line
+			(start 37.04 10.43)
+			(end 37.04 3.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "87adbedc-0730-4c57-a3a1-43cb84a9fde8")
+		)
+		(fp_line
+			(start 37.04 3.93)
+			(end 52.44 3.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "47b5793d-3b96-4049-9989-781a0b3e70ba")
+		)
+		(fp_line
+			(start 52.44 3.93)
+			(end 52.44 -9.57)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "190aca0c-a323-4a39-a5d4-5e5322e0d243")
 		)
 		(fp_line
 			(start -5.36 1.93)
@@ -8034,34 +8149,14 @@
 			(uuid "a4a0d1fb-2e35-48c3-96c0-368e50776bec")
 		)
 		(fp_line
-			(start 18.54 10.43)
-			(end 37.04 10.43)
+			(start -5.36 -9.57)
+			(end -5.36 1.93)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fe683e92-278e-4824-aaad-02b6b66cb3ed")
-		)
-		(fp_line
-			(start 37.04 3.93)
-			(end 52.44 3.93)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "47b5793d-3b96-4049-9989-781a0b3e70ba")
-		)
-		(fp_line
-			(start 37.04 10.43)
-			(end 37.04 3.93)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "87adbedc-0730-4c57-a3a1-43cb84a9fde8")
+			(uuid "31d91e42-ac2b-46c9-a776-6ab55c790d8b")
 		)
 		(fp_line
 			(start 52.44 -9.57)
@@ -8074,24 +8169,44 @@
 			(uuid "745b201a-61d2-420b-8a7c-e8ec75fea49a")
 		)
 		(fp_line
-			(start 52.44 3.93)
-			(end 52.44 -9.57)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "190aca0c-a323-4a39-a5d4-5e5322e0d243")
-		)
-		(fp_line
-			(start -5.11 -9.32)
-			(end -5.11 1.68)
+			(start 18.79 10.18)
+			(end 36.79 10.18)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "47084e53-defc-4384-b796-71a8eb3b351a")
+			(uuid "9173256f-b376-498f-a258-03584a8e470c")
+		)
+		(fp_line
+			(start 36.79 10.18)
+			(end 36.79 3.68)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b593951a-69d5-45ce-ac3b-2653d6683439")
+		)
+		(fp_line
+			(start 36.79 3.68)
+			(end 52.19 3.68)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dafbb4dc-aeb3-4fe2-9aaa-ad1556140e49")
+		)
+		(fp_line
+			(start 52.19 3.68)
+			(end 52.19 -9.32)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b255799a-5652-4292-acd2-cf8fa4c60843")
 		)
 		(fp_line
 			(start -5.11 1.68)
@@ -8114,34 +8229,14 @@
 			(uuid "204f5706-4493-4481-b281-2b3e2851976e")
 		)
 		(fp_line
-			(start 18.79 10.18)
-			(end 36.79 10.18)
+			(start -5.11 -9.32)
+			(end -5.11 1.68)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9173256f-b376-498f-a258-03584a8e470c")
-		)
-		(fp_line
-			(start 36.79 3.68)
-			(end 52.19 3.68)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "dafbb4dc-aeb3-4fe2-9aaa-ad1556140e49")
-		)
-		(fp_line
-			(start 36.79 10.18)
-			(end 36.79 3.68)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b593951a-69d5-45ce-ac3b-2653d6683439")
+			(uuid "47084e53-defc-4384-b796-71a8eb3b351a")
 		)
 		(fp_line
 			(start 52.19 -9.32)
@@ -8153,18 +8248,8 @@
 			(layer "F.Fab")
 			(uuid "5c7823cf-711a-49d2-a105-2a5716d71f6b")
 		)
-		(fp_line
-			(start 52.19 3.68)
-			(end 52.19 -9.32)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b255799a-5652-4292-acd2-cf8fa4c60843")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 23.54 -2.82 0)
+			(at 23.54 -2.82 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "4ace7e8b-153f-409a-ac62-bf010b235ab2")
@@ -8176,7 +8261,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -8184,7 +8269,7 @@
 			(uuid "8cd1c7a7-b332-4672-b098-d6900329d8ba")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -8192,7 +8277,7 @@
 			(uuid "d3b05730-02e8-4d92-b155-d60a14b08082")
 		)
 		(pad "3" thru_hole circle
-			(at 5.08 0)
+			(at 5.08 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -8200,7 +8285,7 @@
 			(uuid "72990ac4-4888-40ce-a55f-877f0c77fd26")
 		)
 		(pad "4" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -8208,7 +8293,7 @@
 			(uuid "54e41dbe-225b-4087-b8e7-6605d4b509e3")
 		)
 		(pad "5" thru_hole circle
-			(at 10.16 0)
+			(at 10.16 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -8216,7 +8301,7 @@
 			(uuid "92b332fa-3517-4659-ac8f-d2f0a4ff28a9")
 		)
 		(pad "6" thru_hole circle
-			(at 12.7 0)
+			(at 12.7 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -8224,7 +8309,7 @@
 			(uuid "715f690e-4d4b-4f67-b923-7f8ca0419200")
 		)
 		(pad "7" thru_hole circle
-			(at 43.18 0)
+			(at 43.18 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -8232,7 +8317,7 @@
 			(uuid "c1121755-944d-4a25-9c74-d315cb8e2de8")
 		)
 		(pad "8" thru_hole circle
-			(at 45.72 0)
+			(at 45.72 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -8240,7 +8325,7 @@
 			(uuid "a21829f8-7b62-41d9-a6fe-e698bf9059e3")
 		)
 		(pad "9" thru_hole circle
-			(at 48.26 0)
+			(at 48.26 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -8248,7 +8333,7 @@
 			(uuid "70ca368d-7f8d-4678-8227-f268d637764f")
 		)
 		(pad "10" thru_hole circle
-			(at 50.8 0)
+			(at 50.8 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -8282,7 +8367,7 @@
 			)
 			(polygon
 				(pts
-					(xy 159.067 70.788) (xy 130.767 70.788) (xy 130.767 56.688) (xy 159.067 56.688)
+					(xy 166.067 61.023) (xy 166.067 32.723) (xy 180.167 32.723) (xy 180.167 61.023)
 				)
 			)
 		)
@@ -15098,11 +15183,11 @@
 		)
 	)
 	(gr_rect
-		(start 106.68 72.09)
-		(end 172.72 125.43)
+		(start 104.14 73.36)
+		(end 185.42 124.16)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")

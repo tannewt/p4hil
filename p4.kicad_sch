@@ -4866,6 +4866,16 @@
 		)
 		(uuid "3edfed12-6aa9-4306-aa95-c6e06e732768")
 	)
+	(label "SCL"
+		(at 200.2157 198.2788 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fbf83a9-82cc-41f0-b823-63ab172cc5ea")
+	)
 	(label "FLASH_CK"
 		(at 31.75 172.72 180)
 		(effects
