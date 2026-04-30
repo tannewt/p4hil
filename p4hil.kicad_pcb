@@ -18237,6 +18237,104 @@
 			)
 		)
 	)
+	(footprint "WorldSemi:WS2812B-4020"
+		(layer "F.Cu")
+		(uuid "ca4127db-9036-49b9-ad50-21e2fb7c5476")
+		(at 160.02 64.47)
+		(property "Reference" "REF**"
+			(at 0 -2.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f2ccb6a9-7458-4a0e-9bd0-3dbe82dc7960")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-4020"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bba5665b-eab8-4524-8ed1-808b8564e9d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30f89c16-2966-44f8-809a-88e6fc6f6c45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edfbaea8-5ad0-483d-ab5c-49d16e27a943")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "43cb2828-9fe9-4f29-a4c7-d95a95686bfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.65 0.425)
+			(size 1.3 0.42)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(uuid "e45c81aa-bd48-49f6-9c79-6f660b393277")
+		)
+		(pad "2" smd roundrect
+			(at -0.65 -0.425)
+			(size 1.3 0.42)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(uuid "8960c1c6-0df5-41a9-bdc1-5b1824cd36af")
+		)
+		(pad "3" smd roundrect
+			(at -0.65 -1.275)
+			(size 1.3 0.42)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(uuid "e260f813-4264-4449-8ac4-09cfec9504ac")
+		)
+		(pad "4" smd roundrect
+			(at -0.65 1.275)
+			(size 1.3 0.42)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(uuid "31b48992-b4cb-4343-b491-650b2752d198")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d0bd0a85-2cb8-4488-b3d6-995b55263084")

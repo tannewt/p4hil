@@ -655,7 +655,7 @@
         "uuid": "b29b188c-1e37-42da-9ef2-78e9f87e21db"
       }
     ],
-    "used_designators": "#PWR105,J18",
+    "used_designators": "#PWR44-47,#PWR61-64,U5,U11-12,R8-9,R14-15,R35-72,J2,J4-12,J15,D5-7,D9-26",
     "variants": []
   },
   "sheets": [
@@ -672,12 +672,20 @@
       "Ethernet"
     ],
     [
+      "bd652c59-7687-4599-bab5-bc4909235e48",
+      "DeviceUnderTest"
+    ],
+    [
       "1db92324-c955-4beb-9ac3-5e1bb96ede4e",
       "USB Device"
     ],
     [
       "d964722f-0742-41bf-972a-222da90a91eb",
       "USB Host"
+    ],
+    [
+      "7d7ec6bd-4670-44d1-a6d9-0a5cc98d4e54",
+      "FaultCheck"
     ],
     [
       "3620286b-124f-4f55-804c-a9a1e46f14ae",
