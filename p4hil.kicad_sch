@@ -377,209 +377,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -1423,16 +1220,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 83.82) (xy 201.93 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12d7a1a8-6aa5-4413-9102-5f9f8aefd786")
-	)
-	(wire
-		(pts
 			(xy 127 111.76) (xy 140.97 111.76)
 		)
 		(stroke
@@ -1460,16 +1247,6 @@
 			(type default)
 		)
 		(uuid "346e27dc-d1a3-4932-a9d6-68331cb54e8c")
-	)
-	(wire
-		(pts
-			(xy 72.39 170.18) (xy 83.82 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35516890-d84f-48ad-97bc-55fec243d91d")
 	)
 	(wire
 		(pts
@@ -1623,16 +1400,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 168.91) (xy 92.71 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fbc48b5-e73a-4641-85e9-920942068998")
-	)
-	(wire
-		(pts
 			(xy 127 109.22) (xy 140.97 109.22)
 		)
 		(stroke
@@ -1643,16 +1410,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 172.72) (xy 74.93 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2bb95d5-b586-4261-9954-c87013ed9091")
-	)
-	(wire
-		(pts
 			(xy 85.09 33.02) (xy 85.09 35.56)
 		)
 		(stroke
@@ -1660,26 +1417,6 @@
 			(type default)
 		)
 		(uuid "a868cf7e-4632-426b-b520-200c78a049ca")
-	)
-	(wire
-		(pts
-			(xy 74.93 172.72) (xy 74.93 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5bcaeb1-4e2e-44f4-814a-3ba1a01b8ea7")
-	)
-	(wire
-		(pts
-			(xy 83.82 170.18) (xy 83.82 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca5c94a2-cc3a-4841-88ec-509fb57ce09e")
 	)
 	(wire
 		(pts
@@ -1741,16 +1478,6 @@
 		)
 		(uuid "2813e885-3541-4a48-9088-d62d8c272b6a")
 	)
-	(label "MAX_VOLTAGE"
-		(at 49.53 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "30b81801-0b58-453b-89c8-7b62a5c63643")
-	)
 	(label "USB_SERIAL+"
 		(at 140.97 171.45 180)
 		(effects
@@ -1790,16 +1517,6 @@
 			(justify right bottom)
 		)
 		(uuid "541bd492-ed17-4479-83a0-495c564bd413")
-	)
-	(label "MAX_VOLTAGE"
-		(at 199.39 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60edd79a-ce1a-4570-a901-cae4bc7b52d4")
 	)
 	(label "USB_HOST+"
 		(at 127 139.7 0)
@@ -2258,99 +1975,6 @@
 			(project "p4hil"
 				(path "/b29b188c-1e37-42da-9ef2-78e9f87e21db"
 					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 74.93 177.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f8ac70d-930b-4cea-a52d-002822da3d88")
-		(property "Reference" "D26"
-			(at 77.47 176.4664 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RED"
-			(at 77.47 179.0064 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 74.93 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 74.93 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a5b1763e-685c-4e63-a94c-acc6d1b94cc3")
-		)
-		(pin "1"
-			(uuid "75951611-5a3b-4aba-b7c1-3c7171d0a50b")
-		)
-		(instances
-			(project "p4hil"
-				(path "/b29b188c-1e37-42da-9ef2-78e9f87e21db"
-					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -2997,84 +2621,6 @@
 			(project "p4hil"
 				(path "/b29b188c-1e37-42da-9ef2-78e9f87e21db"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c06f1757-4d41-4b60-8ab6-93170a27f8ec")
-		(property "Reference" "#PWR064"
-			(at 74.93 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc381c36-f11c-4688-8283-e63dcab8e84f")
-		)
-		(instances
-			(project "p4hil"
-				(path "/b29b188c-1e37-42da-9ef2-78e9f87e21db"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4363,92 +3909,6 @@
 		)
 	)
 	(sheet
-		(at 49.53 167.64)
-		(size 22.86 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "7d7ec6bd-4670-44d1-a6d9-0a5cc98d4e54")
-		(property "Sheetname" "FaultCheck"
-			(at 49.53 166.9284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "faultcheck.kicad_sch"
-			(at 49.53 183.4646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ENABLE_IN" input
-			(at 49.53 175.26 180)
-			(uuid "10478414-0e5b-41e6-bc45-4bad028f7ae9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ENABLE_OUT" input
-			(at 72.39 170.18 0)
-			(uuid "41642465-c6c8-4e45-81d9-3fcdf367948e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "FAULT" input
-			(at 72.39 172.72 0)
-			(uuid "23ff25ac-f3c5-4a6e-851a-68b5c3545057")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MAX_VOLTAGE" input
-			(at 49.53 177.8 180)
-			(uuid "995044a4-28a6-4d7d-9095-3dcf13871545")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "p4hil"
-				(path "/b29b188c-1e37-42da-9ef2-78e9f87e21db"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 201.93 73.66)
 		(size 54.61 21.59)
 		(exclude_from_sim no)
@@ -4679,16 +4139,6 @@
 		(pin "B20" input
 			(at 251.46 95.25 270)
 			(uuid "e518af2f-f04b-42ad-ae35-39cd76a73aed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MAX_VOLTAGE" input
-			(at 201.93 83.82 180)
-			(uuid "c8e18208-9571-472d-80c0-7a54e50ca55e")
 			(effects
 				(font
 					(size 1.27 1.27)
