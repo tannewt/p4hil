@@ -5455,7 +5455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 71.12 128.27 0)
 			(hide yes)
 			(show_name no)
