@@ -2566,23 +2566,23 @@
 	)
 	(hierarchical_label "POE1"
 		(shape input)
-		(at 41.91 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a124e9dc-2ea3-44f8-bc70-828c7f22bd5f")
-	)
-	(hierarchical_label "POE2"
-		(shape input)
 		(at 54.61 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "a124e9dc-2ea3-44f8-bc70-828c7f22bd5f")
+	)
+	(hierarchical_label "POE2"
+		(shape input)
+		(at 41.91 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "cea2ad59-22d8-484d-94ae-b0e186d8bdd6")
 	)

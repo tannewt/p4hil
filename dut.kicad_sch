@@ -4366,6 +4366,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 110.49) (xy 105.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0994497d-c878-4ff7-a420-834faa51c962")
+	)
+	(wire
+		(pts
 			(xy 90.17 48.26) (xy 90.17 58.42)
 		)
 		(stroke
@@ -4383,16 +4393,6 @@
 			(type default)
 		)
 		(uuid "09fe9ee2-f02f-4dc1-89f6-c813cd6fc941")
-	)
-	(wire
-		(pts
-			(xy 107.95 110.49) (xy 107.95 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ad3a295-e127-4c49-ba1a-7f963d7ab9d4")
 	)
 	(wire
 		(pts
@@ -4463,6 +4463,16 @@
 			(type default)
 		)
 		(uuid "0f5f9814-1450-4a15-a92e-8808d624a99a")
+	)
+	(wire
+		(pts
+			(xy 107.95 110.49) (xy 107.95 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8ad998-5f03-40f6-8baa-9f83d2d4ba38")
 	)
 	(wire
 		(pts
@@ -7026,16 +7036,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 110.49) (xy 105.41 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0c9bee-9ed6-4876-90b8-5c586c5dc96b")
-	)
-	(wire
-		(pts
 			(xy 105.41 69.85) (xy 105.41 80.01)
 		)
 		(stroke
@@ -7364,7 +7364,7 @@
 		)
 		(uuid "3bb84b5e-5613-4bd7-8af1-b3fa4a457205")
 	)
-	(label "ARDUINO_RESET"
+	(label "T11i"
 		(at 54.61 185.42 0)
 		(effects
 			(font
@@ -7564,16 +7564,6 @@
 		)
 		(uuid "75089345-3ea7-4d82-b9ea-2537e21376a4")
 	)
-	(label "ARDUINO_RESET"
-		(at 107.95 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7632b6ef-9958-419c-a44b-e680c196b0c6")
-	)
 	(label "B18i"
 		(at 125.73 161.29 90)
 		(effects
@@ -7654,7 +7644,7 @@
 		)
 		(uuid "915287d4-b979-4448-a3e6-6407ed229cee")
 	)
-	(label "ARDUINO_IOREF"
+	(label "T10i"
 		(at 52.07 185.42 180)
 		(effects
 			(font
@@ -7883,16 +7873,6 @@
 			(justify right bottom)
 		)
 		(uuid "e9984d3a-6970-4ddf-9278-a74b6671b7f9")
-	)
-	(label "ARDUINO_IOREF"
-		(at 105.41 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e99f3d99-214e-4d47-8344-a4a06acfb1c9")
 	)
 	(label "B10i"
 		(at 36.83 138.43 270)
@@ -14037,7 +14017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical"
 			(at 105.41 95.25 0)
 			(hide yes)
 			(show_name no)

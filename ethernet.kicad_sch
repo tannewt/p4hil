@@ -3486,6 +3486,12 @@
 		(color 0 0 0 0)
 		(uuid "c9b21e32-687c-4949-87c1-fcb86319a29e")
 	)
+	(junction
+		(at 134.62 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2ab5100-9a4a-4565-b689-00380d20c814")
+	)
 	(no_connect
 		(at 135.89 105.41)
 		(uuid "2a867095-a255-43e8-baf1-92cca3418f88")
@@ -3513,6 +3519,16 @@
 	(no_connect
 		(at 135.89 82.55)
 		(uuid "fedf749b-5b70-4eef-a938-cdfab2ef88a6")
+	)
+	(wire
+		(pts
+			(xy 124.46 73.66) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f66e5f-d99a-47c7-b8aa-d6e6813c609c")
 	)
 	(wire
 		(pts
@@ -3773,6 +3789,16 @@
 			(type default)
 		)
 		(uuid "d685607f-5b07-45d0-85dc-b92c6e44dbd7")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e645f1e9-612a-4159-be1b-058bcc603919")
 	)
 	(label "25M_XI"
 		(at 215.9 139.7 0)
@@ -4237,7 +4263,7 @@
 	)
 	(hierarchical_label "MDIO"
 		(shape input)
-		(at 135.89 73.66 180)
+		(at 124.46 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5106,6 +5132,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60b78837-5e04-4301-8968-41d4d22f0de0")
+		(property "Reference" "R50"
+			(at 135.89 66.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 135.636 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac882bf1-209b-4250-9db3-1913e058aadd")
+		)
+		(pin "2"
+			(uuid "d776dfec-aafa-4dbb-bdc4-c979ae9ed7eb")
+		)
+		(instances
+			(project "p4hil"
+				(path "/b29b188c-1e37-42da-9ef2-78e9f87e21db/16022e0a-5f3f-4f99-9755-d71b2286f4b7"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 215.9 144.78 0)
 		(unit 1)
@@ -5196,10 +5303,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6743ea88-e935-45ee-b9bd-e3779b674ff2")
 		(property "Reference" "R32"
-			(at 133.35 67.3099 0)
+			(at 126.238 65.278 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5210,7 +5317,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 123.444 67.31 0)
+			(at 125.222 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6631,6 +6738,84 @@
 			(project "p4hil"
 				(path "/b29b188c-1e37-42da-9ef2-78e9f87e21db/16022e0a-5f3f-4f99-9755-d71b2286f4b7"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 134.62 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1108f96-a8cb-4967-b563-10b0b9acdaf5")
+		(property "Reference" "#PWR061"
+			(at 134.62 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 134.62 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 134.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92e28f4d-620c-4fa7-842b-01dc8cedff5b")
+		)
+		(instances
+			(project "p4hil"
+				(path "/b29b188c-1e37-42da-9ef2-78e9f87e21db/16022e0a-5f3f-4f99-9755-d71b2286f4b7"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
