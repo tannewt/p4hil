@@ -660,7 +660,7 @@
         "uuid": "b29b188c-1e37-42da-9ef2-78e9f87e21db"
       }
     ],
-    "used_designators": "#PWR44,#PWR125,U5",
+    "used_designators": "R73,R93,J20-21,D9,C60-61,#PWR44-45,#PWR125-129,PORT5,U5",
     "variants": []
   },
   "sheets": [
