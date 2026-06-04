@@ -1846,7 +1846,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN LED"
+		(property "Value" "LED_Small"
 			(at 77.47 81.2164 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1857,7 +1857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 74.93 80.01 90)
 			(hide yes)
 			(show_name no)

@@ -2277,7 +2277,17 @@
 		)
 		(uuid "1f0ea37c-19d0-47aa-b082-150d33245e07")
 	)
-	(label "NEOPIXEL_WAKE"
+	(label "USB_POWER_ON"
+		(at 208.28 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23dc964b-5148-4b4b-9dc3-0eeb83b5d1b8")
+	)
+	(label "WAKE"
 		(at 50.8 55.88 180)
 		(effects
 			(font
@@ -2286,6 +2296,16 @@
 			(justify right bottom)
 		)
 		(uuid "2813e885-3541-4a48-9088-d62d8c272b6a")
+	)
+	(label "SCL"
+		(at 208.28 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a1586cc-de12-45b6-8b1e-86a7220e0969")
 	)
 	(label "T10"
 		(at 53.34 132.08 180)
@@ -2377,7 +2397,7 @@
 		)
 		(uuid "4157601f-e0e0-4edf-a038-f53287a3a9b9")
 	)
-	(label "NEOPIXEL_WAKE"
+	(label "WAKE"
 		(at 140.97 97.79 180)
 		(effects
 			(font
@@ -2527,6 +2547,16 @@
 		)
 		(uuid "694e6a32-5739-48a9-aba1-5ec22547ea9b")
 	)
+	(label "NEOPIXEL"
+		(at 53.34 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a9b51b2-72d8-4214-b083-3cee677a59b2")
+	)
 	(label "B12"
 		(at 53.34 134.62 180)
 		(effects
@@ -2546,16 +2576,6 @@
 			(justify left bottom)
 		)
 		(uuid "6db85f19-5254-4469-ba3d-2710a25ca2ed")
-	)
-	(label "USB_POWER_ON"
-		(at 53.34 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6f217886-e519-4644-ac1a-9f278b1ad755")
 	)
 	(label "T2"
 		(at 50.8 81.28 180)
@@ -2997,7 +3017,7 @@
 		)
 		(uuid "d7978701-f821-4700-b064-5983d2e5aef2")
 	)
-	(label "NEOPIXEL_WAKE"
+	(label "NEOPIXEL"
 		(at 30.48 34.29 180)
 		(effects
 			(font
@@ -3066,6 +3086,16 @@
 			(justify right bottom)
 		)
 		(uuid "ecad342e-a262-4670-b730-5645d9bc8c0b")
+	)
+	(label "SDA_BOOT"
+		(at 208.28 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed17e030-f8a7-4531-a3df-b106fbcd8fbc")
 	)
 	(label "SDA_BOOT"
 		(at 67.31 34.29 270)
@@ -5901,6 +5931,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 208.28 34.29 180)
+			(uuid "1ffdb88d-86ed-4b10-86e0-34d0671ccf28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 208.28 36.83 180)
+			(uuid "3376a1f0-b9a7-4498-821c-96cbdbf0941e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_POWER_ON" input
+			(at 208.28 39.37 180)
+			(uuid "1bd72d76-263d-451e-8af6-38563a22ba65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
