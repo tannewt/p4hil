@@ -76,40 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|183211500|68857500|b6dd11d4-ace7-44e3-b0ef-0f57bc959ffa|9c1653e1-60ae-408a-ba65-cee3aaaf6bc4",
-          ""
-        ],
-        [
-          "hole_clearance|183211500|71682500|fca15af9-7d2b-4c65-8dac-c99f57e1b5b2|15047978-ea98-4894-bc35-ef1235a8f5c3",
-          ""
-        ],
-        [
-          "hole_clearance|183311500|108777500|86ac40e3-dcaa-49cc-807c-c70c90c4926c|c57c9f80-7fad-4240-8a6d-60bb6453bfc5",
-          ""
-        ],
-        [
-          "hole_clearance|183311500|111602500|e38c436e-acd3-41e5-a402-04040e4d141f|5d5e0ce0-3df1-4679-ba1a-804493acbd19",
-          ""
-        ],
-        [
-          "hole_clearance|184224000|68145000|0aa32e62-a833-41c8-8f72-d3a8a7267cbe|9c1653e1-60ae-408a-ba65-cee3aaaf6bc4",
-          ""
-        ],
-        [
-          "hole_clearance|184224000|72395000|e0b8ea38-2a59-4542-95ce-4b1f73c696a1|15047978-ea98-4894-bc35-ef1235a8f5c3",
-          ""
-        ],
-        [
-          "hole_clearance|184324000|108065000|4fcd8d73-3811-474d-a349-df39ece5d672|c57c9f80-7fad-4240-8a6d-60bb6453bfc5",
-          ""
-        ],
-        [
-          "hole_clearance|184324000|112315000|78861ac3-e5fa-400b-95f3-9b05f65f9ccd|5d5e0ce0-3df1-4679-ba1a-804493acbd19",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -746,7 +713,7 @@
         "uuid": "b29b188c-1e37-42da-9ef2-78e9f87e21db"
       }
     ],
-    "used_designators": "R114,C44,D6,#PWR63-64,#PWR137,J1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
